@@ -1,0 +1,31 @@
+[35m[1mConsolidate compiler generated dependencies of target topic_sub[0m
+[35m[1mConsolidate compiler generated dependencies of target topic_pub[0m
+[35m[1mConsolidate compiler generated dependencies of target service[0m
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[100%] Built target topic_sub
+[100%] Built target service
+[100%] Built target client
+[100%] Built target topic_pub
+-- Install configuration: ""
+-- Up-to-date: /home/ros2_explore/install/ros2_base/lib/ros2_base/topic_sub
+-- Up-to-date: /home/ros2_explore/install/ros2_base/lib/ros2_base/topic_pub
+-- Up-to-date: /home/ros2_explore/install/ros2_base/lib/ros2_base/service
+-- Up-to-date: /home/ros2_explore/install/ros2_base/lib/ros2_base/client
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/launch
+-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/launch/config_launch.py
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/launch/generate_launch.py
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ament_index/resource_index/package_run_dependencies/ros2_base
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ament_index/resource_index/parent_prefix_path/ros2_base
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/path.sh
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/path.dsv
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/local_setup.bash
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/local_setup.sh
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/local_setup.zsh
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/local_setup.dsv
+-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/package.dsv
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ament_index/resource_index/packages/ros2_base
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ros2_baseConfig.cmake
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ros2_baseConfig-version.cmake
+-- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/package.xml

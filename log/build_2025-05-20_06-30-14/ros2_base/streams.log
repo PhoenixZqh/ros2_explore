@@ -1,0 +1,35 @@
+[0.005s] Invoking command in '/home/ros2_explore/build/ros2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_explore/build/ros2_base -- -j24 -l24
+[0.023s] [35m[1mConsolidate compiler generated dependencies of target topic_sub[0m
+[0.023s] [35m[1mConsolidate compiler generated dependencies of target topic_pub[0m
+[0.023s] [35m[1mConsolidate compiler generated dependencies of target service[0m
+[0.023s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[0.031s] [100%] Built target topic_sub
+[0.031s] [100%] Built target service
+[0.032s] [100%] Built target client
+[0.032s] [100%] Built target topic_pub
+[0.036s] Invoked command in '/home/ros2_explore/build/ros2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_explore/build/ros2_base -- -j24 -l24
+[0.040s] Invoking command in '/home/ros2_explore/build/ros2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_explore/build/ros2_base
+[0.043s] -- Install configuration: ""
+[0.043s] -- Up-to-date: /home/ros2_explore/install/ros2_base/lib/ros2_base/topic_sub
+[0.043s] -- Up-to-date: /home/ros2_explore/install/ros2_base/lib/ros2_base/topic_pub
+[0.043s] -- Up-to-date: /home/ros2_explore/install/ros2_base/lib/ros2_base/service
+[0.043s] -- Up-to-date: /home/ros2_explore/install/ros2_base/lib/ros2_base/client
+[0.043s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/launch
+[0.043s] -- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/launch/config_launch.py
+[0.043s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/launch/generate_launch.py
+[0.043s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ament_index/resource_index/package_run_dependencies/ros2_base
+[0.043s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ament_index/resource_index/parent_prefix_path/ros2_base
+[0.043s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/ament_prefix_path.sh
+[0.043s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/ament_prefix_path.dsv
+[0.044s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/path.sh
+[0.044s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/path.dsv
+[0.044s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/local_setup.bash
+[0.044s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/local_setup.sh
+[0.044s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/local_setup.zsh
+[0.044s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/local_setup.dsv
+[0.044s] -- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/package.dsv
+[0.044s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ament_index/resource_index/packages/ros2_base
+[0.044s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ros2_baseConfig.cmake
+[0.044s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ros2_baseConfig-version.cmake
+[0.044s] -- Up-to-date: /home/ros2_explore/install/ros2_base/share/ros2_base/package.xml
+[0.045s] Invoked command in '/home/ros2_explore/build/ros2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2_explore/build/ros2_base

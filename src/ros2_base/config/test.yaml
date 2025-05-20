@@ -1,0 +1,4 @@
+study_subscriber:  # 必须与 Node 的名称一致
+  ros__parameters:
+    my_param: "这是一个参数"
+    number_param: 42
