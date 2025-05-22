@@ -1,0 +1,2 @@
+Invoking command in '/home/ros2_explore/build/ros2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_explore/build/ros2_base -- -j24 -l24
+Invoked command in '/home/ros2_explore/build/ros2_base' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_explore/build/ros2_base -- -j24 -l24

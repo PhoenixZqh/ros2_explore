@@ -1,0 +1,223 @@
+[0.000000] (-) TimerEvent: {}
+[0.000084] (ros2_base) JobQueued: {'identifier': 'ros2_base', 'dependencies': OrderedDict()}
+[0.000100] (ros2_base) JobStarted: {'identifier': 'ros2_base'}
+[0.003410] (ros2_base) JobProgress: {'identifier': 'ros2_base', 'progress': 'cmake'}
+[0.003695] (ros2_base) JobProgress: {'identifier': 'ros2_base', 'progress': 'build'}
+[0.004061] (ros2_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_explore/build/ros2_base', '--', '-j24', '-l24'], 'cwd': '/home/ros2_explore/build/ros2_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('HOSTNAME', 'zqh-OMEN-by-HP-45L-Gaming-Desktop-GT22-0xxx'), ('GIT_ASKPASS', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_explore/build'), ('TERM_PROGRAM_VERSION', '0.45.14'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-ca80f3c7-4c42-4090-a24c-645629d36005.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ros2_explore/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-317c83b7-1ecf-4162-ad57-8aa95b8ca377.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-317c83b7-1ecf-4162-ad57-8aa95b8ca377.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-cfc9ac34e3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-317c83b7-1ecf-4162-ad57-8aa95b8ca377.sock'), ('AMENT_PREFIX_PATH', '/home/ros2_explore/install/ros2_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2_explore/build/ros2_base'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Etc/UTC'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_explore/install/ros2_base:/opt/ros/humble')]), 'shell': False}
+[0.026931] (ros2_base) StdoutLine: {'line': b'[  2%] Built target ros2_base__cpp\n'}
+[0.027113] (ros2_base) StdoutLine: {'line': b'[  9%] Built target ros2_base__rosidl_generator_c\n'}
+[0.030777] (ros2_base) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_ros2_base\n'}
+[0.042965] (ros2_base) StdoutLine: {'line': b'[ 16%] Built target ros2_base__rosidl_typesupport_cpp\n'}
+[0.043488] (ros2_base) StdoutLine: {'line': b'[ 23%] Built target ros2_base__rosidl_typesupport_fastrtps_cpp\n'}
+[0.046572] (ros2_base) StdoutLine: {'line': b'[ 30%] Built target ros2_base__rosidl_typesupport_introspection_cpp\n'}
+[0.051938] (ros2_base) StdoutLine: {'line': b'[ 37%] Built target ros2_base__rosidl_typesupport_introspection_c\n'}
+[0.052297] (ros2_base) StdoutLine: {'line': b'[ 44%] Built target ros2_base__rosidl_typesupport_c\n'}
+[0.053470] (ros2_base) StdoutLine: {'line': b'[ 51%] Built target ros2_base__rosidl_typesupport_fastrtps_c\n'}
+[0.066093] (ros2_base) StdoutLine: {'line': b'[ 55%] Built target topic_pub\n'}
+[0.066474] (ros2_base) StdoutLine: {'line': b'[ 60%] Built target service\n'}
+[0.066896] (ros2_base) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o\x1b[0m\n'}
+[0.067897] (ros2_base) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o\x1b[0m\n'}
+[0.068576] (ros2_base) StdoutLine: {'line': b'[ 65%] Built target ros2_base\n'}
+[0.069860] (ros2_base) StdoutLine: {'line': b'[ 69%] Built target topic_sub\n'}
+[0.071838] (ros2_base) StdoutLine: {'line': b'[ 74%] Built target client\n'}
+[0.078055] (ros2_base) StdoutLine: {'line': b'[ 76%] Built target ros2_base__py\n'}
+[0.082359] (ros2_base) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros2_base__rosidl_generator_py\x1b[0m\n'}
+[0.088350] (ros2_base) StdoutLine: {'line': b'[ 81%] Built target ros2_base__rosidl_generator_py\n'}
+[0.096716] (ros2_base) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/ros2_base__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_base/_ros2_base_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[0.096832] (ros2_base) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/ros2_base__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_base/_ros2_base_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[0.096868] (ros2_base) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros2_base__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_base/_ros2_base_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[0.099643] (-) TimerEvent: {}
+[0.155625] (ros2_base) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_base/ros2_base_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[0.155794] (ros2_base) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_base/ros2_base_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[0.155868] (ros2_base) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_base/ros2_base_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[0.159948] (ros2_base) StdoutLine: {'line': b'running egg_info\n'}
+[0.160274] (ros2_base) StdoutLine: {'line': b'writing ros2_base.egg-info/PKG-INFO\n'}
+[0.160390] (ros2_base) StdoutLine: {'line': b'writing dependency_links to ros2_base.egg-info/dependency_links.txt\n'}
+[0.160472] (ros2_base) StdoutLine: {'line': b'writing top-level names to ros2_base.egg-info/top_level.txt\n'}
+[0.161602] (ros2_base) StdoutLine: {'line': b"reading manifest file 'ros2_base.egg-info/SOURCES.txt'\n"}
+[0.161822] (ros2_base) StdoutLine: {'line': b"writing manifest file 'ros2_base.egg-info/SOURCES.txt'\n"}
+[0.175746] (ros2_base) StdoutLine: {'line': b'[ 95%] Built target ros2_base__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.175893] (ros2_base) StdoutLine: {'line': b'[ 95%] Built target ros2_base__rosidl_typesupport_c__pyext\n'}
+[0.175960] (ros2_base) StdoutLine: {'line': b'[ 95%] Built target ros2_base__rosidl_typesupport_introspection_c__pyext\n'}
+[0.176021] (ros2_base) StdoutLine: {'line': b'[ 95%] Built target ament_cmake_python_build_ros2_base_egg\n'}
+[0.199818] (-) TimerEvent: {}
+[0.300161] (-) TimerEvent: {}
+[0.400535] (-) TimerEvent: {}
+[0.500890] (-) TimerEvent: {}
+[0.601286] (-) TimerEvent: {}
+[0.701641] (-) TimerEvent: {}
+[0.801932] (-) TimerEvent: {}
+[0.902310] (-) TimerEvent: {}
+[1.002672] (-) TimerEvent: {}
+[1.103038] (-) TimerEvent: {}
+[1.203394] (-) TimerEvent: {}
+[1.303745] (-) TimerEvent: {}
+[1.404096] (-) TimerEvent: {}
+[1.504468] (-) TimerEvent: {}
+[1.604821] (-) TimerEvent: {}
+[1.705233] (-) TimerEvent: {}
+[1.805577] (-) TimerEvent: {}
+[1.853117] (ros2_base) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable action_server\x1b[0m\n'}
+[1.905773] (-) TimerEvent: {}
+[1.919707] (ros2_base) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable action_client\x1b[0m\n'}
+[1.931214] (ros2_base) StdoutLine: {'line': b'[100%] Built target action_server\n'}
+[2.000726] (ros2_base) StdoutLine: {'line': b'[100%] Built target action_client\n'}
+[2.006374] (ros2_base) CommandEnded: {'returncode': 0}
+[2.006627] (-) TimerEvent: {}
+[2.006704] (ros2_base) JobProgress: {'identifier': 'ros2_base', 'progress': 'install'}
+[2.009742] (ros2_base) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2_explore/build/ros2_base'], 'cwd': '/home/ros2_explore/build/ros2_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('HOSTNAME', 'zqh-OMEN-by-HP-45L-Gaming-Desktop-GT22-0xxx'), ('GIT_ASKPASS', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_explore/build'), ('TERM_PROGRAM_VERSION', '0.45.14'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-ca80f3c7-4c42-4090-a24c-645629d36005.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ros2_explore/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-317c83b7-1ecf-4162-ad57-8aa95b8ca377.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-317c83b7-1ecf-4162-ad57-8aa95b8ca377.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-cfc9ac34e3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-317c83b7-1ecf-4162-ad57-8aa95b8ca377.sock'), ('AMENT_PREFIX_PATH', '/home/ros2_explore/install/ros2_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2_explore/build/ros2_base'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Etc/UTC'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_explore/install/ros2_base:/opt/ros/humble')]), 'shell': False}
+[2.012807] (ros2_base) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.012905] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ament_index/resource_index/rosidl_interfaces/ros2_base\n'}
+[2.012983] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base\n'}
+[2.013071] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/msg\n'}
+[2.013153] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.013229] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action\n'}
+[2.013297] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail\n'}
+[2.013364] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail/count_number__functions.c\n'}
+[2.013432] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail/count_number__functions.h\n'}
+[2.013506] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail/count_number__type_support.h\n'}
+[2.013571] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail/count_number__struct.h\n'}
+[2.013627] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/count_number.h\n'}
+[2.013682] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/library_path.sh\n'}
+[2.013760] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/library_path.dsv\n'}
+[2.013848] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_generator_c.so\n'}
+[2.013915] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_generator_c.so" to ""\n'}
+[2.013972] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base\n'}
+[2.014028] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/msg\n'}
+[2.014113] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.014200] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action\n'}
+[2.014268] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail\n'}
+[2.014334] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail/count_number__rosidl_typesupport_fastrtps_c.h\n'}
+[2.014408] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_typesupport_fastrtps_c.so\n'}
+[2.014492] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.014557] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base\n'}
+[2.014621] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/msg\n'}
+[2.014676] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.014739] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action\n'}
+[2.014819] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/count_number.hpp\n'}
+[2.014887] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail\n'}
+[2.014951] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail/count_number__traits.hpp\n'}
+[2.015016] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail/count_number__builder.hpp\n'}
+[2.015070] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail/count_number__struct.hpp\n'}
+[2.015141] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail/count_number__type_support.hpp\n'}
+[2.015197] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base\n'}
+[2.015268] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/msg\n'}
+[2.015348] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.015404] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action\n'}
+[2.015468] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail\n'}
+[2.015523] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail/dds_fastrtps\n'}
+[2.015587] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail/count_number__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.015655] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.015710] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.015775] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base\n'}
+[2.015843] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/msg\n'}
+[2.015906] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.015976] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action\n'}
+[2.016041] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail\n'}
+[2.016113] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail/count_number__type_support.c\n'}
+[2.016178] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail/count_number__rosidl_typesupport_introspection_c.h\n'}
+[2.016242] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_typesupport_introspection_c.so\n'}
+[2.016306] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.016377] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_typesupport_c.so\n'}
+[2.016448] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_typesupport_c.so" to ""\n'}
+[2.016534] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base\n'}
+[2.016601] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action\n'}
+[2.016666] (ros2_base) StdoutLine: {'line': b'-- Up-to-date: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail\n'}
+[2.016722] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail/count_number__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.016784] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/include/ros2_base/ros2_base/action/detail/count_number__type_support.cpp\n'}
+[2.016839] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_typesupport_introspection_cpp.so\n'}
+[2.016894] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.016949] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_typesupport_cpp.so\n'}
+[2.017004] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_typesupport_cpp.so" to ""\n'}
+[2.017068] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/pythonpath.sh\n'}
+[2.017125] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/pythonpath.dsv\n'}
+[2.017180] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base-0.0.0-py3.10.egg-info\n'}
+[2.017234] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.017291] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.017348] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.017407] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.017462] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base\n'}
+[2.017516] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/_ros2_base_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.017570] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/_ros2_base_s.ep.rosidl_typesupport_c.c\n'}
+[2.017624] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/libros2_base__rosidl_generator_py.so\n'}
+[2.017679] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/ros2_base_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.017737] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/action\n'}
+[2.017792] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/action/_count_number_s.c\n'}
+[2.017846] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/action/_count_number.py\n'}
+[2.017901] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/action/__init__.py\n'}
+[2.017956] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/__init__.py\n'}
+[2.018010] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/_ros2_base_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.018065] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/ros2_base_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.018119] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/ros2_base_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.036581] (ros2_base) StdoutLine: {'line': b"Listing '/home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base'...\n"}
+[2.036664] (ros2_base) StdoutLine: {'line': b"Compiling '/home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/__init__.py'...\n"}
+[2.036720] (ros2_base) StdoutLine: {'line': b"Listing '/home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/action'...\n"}
+[2.036775] (ros2_base) StdoutLine: {'line': b"Compiling '/home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/action/__init__.py'...\n"}
+[2.036840] (ros2_base) StdoutLine: {'line': b"Compiling '/home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/action/_count_number.py'...\n"}
+[2.039131] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/ros2_base_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.039279] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/ros2_base_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.039348] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/ros2_base_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.039421] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/ros2_base_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.039496] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/ros2_base_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.039577] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/local/lib/python3.10/dist-packages/ros2_base/ros2_base_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.039651] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_generator_py.so\n'}
+[2.039794] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/lib/libros2_base__rosidl_generator_py.so" to ""\n'}
+[2.039898] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/action/CountNumber.idl\n'}
+[2.039966] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/action/CountNumber.action\n'}
+[2.040027] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/lib/ros2_base/topic_sub\n'}
+[2.041614] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/lib/ros2_base/topic_sub" to ""\n'}
+[2.041743] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/lib/ros2_base/topic_pub\n'}
+[2.042161] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/lib/ros2_base/topic_pub" to ""\n'}
+[2.042288] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/lib/ros2_base/service\n'}
+[2.042517] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/lib/ros2_base/service" to ""\n'}
+[2.042643] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/lib/ros2_base/client\n'}
+[2.042898] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/lib/ros2_base/client" to ""\n'}
+[2.043029] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/lib/ros2_base/action_server\n'}
+[2.043294] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/lib/ros2_base/action_server" to ""\n'}
+[2.043420] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/lib/ros2_base/action_client\n'}
+[2.043696] (ros2_base) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2_explore/install/ros2_base/lib/ros2_base/action_client" to ""\n'}
+[2.043795] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/launch\n'}
+[2.043873] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/launch/config_launch.py\n'}
+[2.043951] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/launch/generate_launch.py\n'}
+[2.044020] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ament_index/resource_index/package_run_dependencies/ros2_base\n'}
+[2.044094] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ament_index/resource_index/parent_prefix_path/ros2_base\n'}
+[2.044166] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/ament_prefix_path.sh\n'}
+[2.044233] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/ament_prefix_path.dsv\n'}
+[2.044305] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/path.sh\n'}
+[2.044363] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/environment/path.dsv\n'}
+[2.044428] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/local_setup.bash\n'}
+[2.044499] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/local_setup.sh\n'}
+[2.044565] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/local_setup.zsh\n'}
+[2.044630] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/local_setup.dsv\n'}
+[2.044700] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/package.dsv\n'}
+[2.044768] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ament_index/resource_index/packages/ros2_base\n'}
+[2.044833] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/export_ros2_base__rosidl_generator_cExport.cmake\n'}
+[2.044913] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/export_ros2_base__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.044984] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/export_ros2_base__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.045066] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/export_ros2_base__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.045133] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/export_ros2_base__rosidl_generator_cppExport.cmake\n'}
+[2.045205] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/export_ros2_base__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.045269] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/export_ros2_base__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.045335] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ros2_base__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.045406] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ros2_base__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.045471] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ros2_base__rosidl_typesupport_cExport.cmake\n'}
+[2.045544] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ros2_base__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.045609] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ros2_base__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.045680] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ros2_base__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.045744] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ros2_base__rosidl_typesupport_cppExport.cmake\n'}
+[2.045799] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ros2_base__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.045857] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/export_ros2_base__rosidl_generator_pyExport.cmake\n'}
+[2.045912] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/export_ros2_base__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.045966] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/rosidl_cmake-extras.cmake\n'}
+[2.046023] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.046077] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.046132] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.046187] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.046241] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.046296] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.046351] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ros2_baseConfig.cmake\n'}
+[2.046406] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/cmake/ros2_baseConfig-version.cmake\n'}
+[2.046461] (ros2_base) StdoutLine: {'line': b'-- Installing: /home/ros2_explore/install/ros2_base/share/ros2_base/package.xml\n'}
+[2.046908] (ros2_base) CommandEnded: {'returncode': 0}
+[2.056019] (ros2_base) JobEnded: {'identifier': 'ros2_base', 'rc': 0}
+[2.056474] (-) EventReactorShutdown: {}

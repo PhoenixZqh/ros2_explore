@@ -1,0 +1,131 @@
+[0.004s] Invoking command in '/home/ros2_explore/build/ros2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2_explore/src/ros2_base -DCMAKE_INSTALL_PREFIX=/home/ros2_explore/install/ros2_base
+[0.030s] -- The C compiler identification is GNU 11.4.0
+[0.094s] -- The CXX compiler identification is GNU 11.4.0
+[0.101s] -- Detecting C compiler ABI info
+[0.147s] -- Detecting C compiler ABI info - done
+[0.151s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.151s] -- Detecting C compile features
+[0.152s] -- Detecting C compile features - done
+[0.153s] -- Detecting CXX compiler ABI info
+[0.195s] -- Detecting CXX compiler ABI info - done
+[0.198s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.198s] -- Detecting CXX compile features
+[0.199s] -- Detecting CXX compile features - done
+[0.200s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.291s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.342s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.361s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.364s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.367s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.373s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.400s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.401s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.439s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.455s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.478s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.482s] -- Looking for pthread.h
+[0.517s] -- Looking for pthread.h - found
+[0.517s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.562s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.562s] -- Found Threads: TRUE  
+[0.590s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.609s] -- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.614s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.759s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.974s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.046s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.058s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.058s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.071s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.071s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.071s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.071s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.085s] -- Found PythonExtra: .so  
+[1.119s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.129s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.130s] -- Configured cppcheck include dirs: 
+[1.130s] -- Configured cppcheck exclude dirs and/or files: 
+[1.130s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.130s] -- Added test 'lint_cmake' to check CMake code style
+[1.130s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.131s] -- Added test 'uncrustify' to check C / C++ code style
+[1.131s] -- Configured uncrustify additional arguments: 
+[1.131s] -- Added test 'xmllint' to check XML markup files
+[1.132s] -- Configuring done
+[1.160s] -- Generating done
+[1.171s] -- Build files have been written to: /home/ros2_explore/build/ros2_base
+[1.177s] Invoked command in '/home/ros2_explore/build/ros2_base' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2_explore/src/ros2_base -DCMAKE_INSTALL_PREFIX=/home/ros2_explore/install/ros2_base
+[1.178s] Invoking command in '/home/ros2_explore/build/ros2_base': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_explore/build/ros2_base -- -j24 -l24
+[1.195s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.199s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.202s] [  4%] Built target ament_cmake_python_copy_ros2_base
+[1.301s] running egg_info
+[1.301s] creating ros2_base.egg-info
+[1.301s] writing ros2_base.egg-info/PKG-INFO
+[1.301s] writing dependency_links to ros2_base.egg-info/dependency_links.txt
+[1.301s] writing top-level names to ros2_base.egg-info/top_level.txt
+[1.302s] writing manifest file 'ros2_base.egg-info/SOURCES.txt'
+[1.302s] reading manifest file 'ros2_base.egg-info/SOURCES.txt'
+[1.302s] writing manifest file 'ros2_base.egg-info/SOURCES.txt'
+[1.315s] [  4%] Built target ament_cmake_python_build_ros2_base_egg
+[1.396s] [  6%] [32mBuilding C object CMakeFiles/ros2_base__rosidl_generator_c.dir/rosidl_generator_c/ros2_base/action/detail/count_number__functions.c.o[0m
+[1.398s] [  6%] Built target ros2_base__cpp
+[1.401s] [ 11%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.402s] [ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.402s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.458s] [ 16%] [32m[1mLinking C shared library libros2_base__rosidl_generator_c.so[0m
+[1.475s] [ 16%] Built target ros2_base__rosidl_generator_c
+[1.479s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.479s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.479s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.539s] [ 25%] [32mBuilding CXX object CMakeFiles/ros2_base__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_base/action/count_number__type_support.cpp.o[0m
+[1.561s] [ 27%] [32mBuilding CXX object CMakeFiles/ros2_base__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_base/action/detail/count_number__type_support.cpp.o[0m
+[1.585s] [ 30%] [32mBuilding CXX object CMakeFiles/ros2_base__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_base/action/detail/dds_fastrtps/count_number__type_support.cpp.o[0m
+[1.615s] [ 32%] [32mBuilding CXX object CMakeFiles/ros2_base__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_base/action/count_number__type_support.cpp.o[0m
+[1.637s] [ 34%] [32m[1mLinking CXX shared library libros2_base__rosidl_typesupport_c.so[0m
+[1.650s] [ 37%] [32mBuilding C object CMakeFiles/ros2_base__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_base/action/detail/count_number__type_support.c.o[0m
+[1.656s] [ 37%] Built target ros2_base__rosidl_typesupport_c
+[1.661s] [ 39%] [32mBuilding CXX object CMakeFiles/ros2_base__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_base/action/detail/count_number__type_support_c.cpp.o[0m
+[1.671s] [ 41%] [32m[1mLinking C shared library libros2_base__rosidl_typesupport_introspection_c.so[0m
+[1.685s] [ 41%] Built target ros2_base__rosidl_typesupport_introspection_c
+[1.739s] [ 44%] [32m[1mLinking CXX shared library libros2_base__rosidl_typesupport_cpp.so[0m
+[1.758s] [ 44%] Built target ros2_base__rosidl_typesupport_cpp
+[1.767s] [ 48%] [32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o[0m
+[1.767s] [ 51%] [32mBuilding CXX object CMakeFiles/topic_sub.dir/src/topic_sub.cpp.o[0m
+[1.767s] [ 51%] [32mBuilding CXX object CMakeFiles/topic_pub.dir/src/topic_pub.cpp.o[0m
+[1.767s] [ 53%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[1.768s] [ 55%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[1.773s] [ 58%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[1.826s] [ 60%] [32m[1mLinking CXX shared library libros2_base__rosidl_typesupport_introspection_cpp.so[0m
+[1.834s] [ 62%] [32m[1mLinking CXX shared library libros2_base__rosidl_typesupport_fastrtps_c.so[0m
+[1.837s] [ 65%] [32m[1mLinking CXX shared library libros2_base__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.865s] [ 65%] Built target ros2_base__rosidl_typesupport_introspection_cpp
+[1.871s] [ 65%] Built target ros2_base__rosidl_typesupport_fastrtps_c
+[1.890s] [ 65%] Built target ros2_base__rosidl_typesupport_fastrtps_cpp
+[1.900s] [ 65%] Built target ros2_base
+[1.908s] [01m[K/home/ros2_explore/src/ros2_base/src/action_server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kros2_action_example/action/count_number.hpp: No such file or directory
+[1.908s]     3 | #include [01;31m[K"ros2_action_example/action/count_number.hpp"[m[K
+[1.908s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.908s] compilation terminated.
+[1.909s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/action_server.cpp.o] Error 1
+[1.909s] [ 67%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.910s] gmake[1]: *** [CMakeFiles/Makefile2:711: CMakeFiles/action_server.dir/all] Error 2
+[1.910s] gmake[1]: *** Waiting for unfinished jobs....
+[1.925s] [01m[K/home/ros2_explore/src/ros2_base/src/action_client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kros2_action_example/action/count_number.hpp: No such file or directory
+[1.925s]     3 | #include [01;31m[K"ros2_action_example/action/count_number.hpp"[m[K
+[1.925s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.926s] compilation terminated.
+[1.927s] gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/action_client.cpp.o] Error 1
+[1.927s] gmake[1]: *** [CMakeFiles/Makefile2:738: CMakeFiles/action_client.dir/all] Error 2
+[2.244s] [ 67%] Built target ros2_base__py
+[3.492s] [ 69%] [32m[1mLinking CXX executable service[0m
+[3.545s] [ 72%] [32m[1mLinking CXX executable client[0m
+[3.573s] [ 72%] Built target service
+[3.622s] [ 72%] Built target client
+[3.916s] [ 74%] [32m[1mLinking CXX executable topic_pub[0m
+[4.011s] [ 74%] Built target topic_pub
+[5.719s] [ 76%] [32m[1mLinking CXX executable topic_sub[0m
+[5.910s] [ 76%] Built target topic_sub
+[5.911s] gmake: *** [Makefile:146: all] Error 2
+[5.912s] Invoked command in '/home/ros2_explore/build/ros2_base' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2_explore/build/ros2_base -- -j24 -l24

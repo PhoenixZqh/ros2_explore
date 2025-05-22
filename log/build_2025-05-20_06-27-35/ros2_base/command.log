@@ -1,2 +1,0 @@
-Invoking command in '/home/ros2_explore/build/ros2_base': /usr/bin/cmake /home/ros2_explore/src/ros2_base -DCMAKE_INSTALL_PREFIX=/home/ros2_explore/install/ros2_base
-Invoked command in '/home/ros2_explore/build/ros2_base' returned '1': /usr/bin/cmake /home/ros2_explore/src/ros2_base -DCMAKE_INSTALL_PREFIX=/home/ros2_explore/install/ros2_base

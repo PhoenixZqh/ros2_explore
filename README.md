@@ -2,6 +2,8 @@
 
 ## ROS2 与 ROS1 的区别
 
+### 总览
+
 | 特性 | ROS1 | ROS2 |
 |------|------|------|
 | 通信机制 | 基于 TCPROS/UDPROS | 基于 DDS (Data Distribution Service) |
@@ -20,9 +22,137 @@
 | 消息序列化 | 自定义 | 标准 IDL |
 | 开发语言 | 主要 C++/Python | 支持更多语言 |
 
+
+### catkin 和 ament 的区别
+
+#### 问题一
+```xml
+add_library cannot create target "plan_env" because another target with the same name already exists.
+```
+
+🤔 **ROS1 (catkin) 的情况：** 
+- 使用 catkin（基于 CMake 2.x/3.x）
+- `project(plan_env)` 声明整个包的名称
+- `add_library(plan_env ...)` 创建编译输出的库
+- catkin 不会隐式创建同名的 CMake target
+- 使用与项目名相同的库名是合法的，不会产生冲突 
+
+😖 **ROS2 (ament) 的情况：** 
+- 使用 ament_cmake（基于 CMake，但更严格）
+- ament 会隐式为每个包创建一个同名的 Utility target
+- 当你执行 `add_library(plan_env ...)` 时，会与已存在的 Utility target 冲突
+- 不能重新定义一个已存在的 Utility target
+
+## ROS2 常见命令
+
+### 工作空间和包管理
+```bash
+# 创建功能包
+ros2 pkg create --build-type ament_cmake <package_name>  # C++包
+ros2 pkg create --build-type ament_python <package_name> # Python包
+
+# 列出所有包
+ros2 pkg list
+
+# 查找包
+ros2 pkg find <package_name>
+
+# 刷新环境变量
+source /opt/ros/<ros_distro>/setup.bash  # 系统级ROS2
+source install/setup.bash                # 工作空间级ROS2
+```
+
+### 节点操作
+```bash
+# 运行节点
+ros2 run <package_name> <executable_name>
+
+# 列出运行中的节点
+ros2 node list
+
+# 查看节点信息
+ros2 node info <node_name>
+```
+
+### 话题操作
+```bash
+# 列出所有话题
+ros2 topic list
+
+# 查看话题信息
+ros2 topic info <topic_name>
+
+# 查看话题消息类型
+ros2 topic type <topic_name>
+
+# 查看话题消息内容
+ros2 topic echo <topic_name>
+
+# 发布消息到话题
+ros2 topic pub <topic_name> <msg_type> <data>
+```
+
+### 服务操作
+```bash
+# 列出所有服务
+ros2 service list
+
+# 查看服务信息
+ros2 service type <service_name>
+
+# 调用服务
+ros2 service call <service_name> <service_type> <data>
+```
+
+### 参数操作
+```bash
+# 列出所有参数
+ros2 param list
+
+# 获取参数值
+ros2 param get <node_name> <param_name>
+
+# 设置参数值
+ros2 param set <node_name> <param_name> <value>
+
+# 加载参数文件
+ros2 param load <node_name> <param_file>
+```
+
+### 消息操作
+```bash
+# 查看消息定义
+ros2 interface show <msg_type>
+
+# 列出所有消息类型
+ros2 interface list
+```
+
+### 构建和运行
+```bash
+# 构建工作空间
+colcon build
+
+# 构建特定包
+colcon build --packages-select <package_name>
+
+# 运行launch文件
+ros2 launch <package_name> <launch_file>
+```
+
+### 调试工具
+```bash
+# 查看节点关系图
+ros2 run rqt_graph rqt_graph
+
+# 查看系统状态
+ros2 topic hz <topic_name>  # 查看话题发布频率
+ros2 topic bw <topic_name>  # 查看话题带宽使用
+```
+
 ## ROS2 通信
 
-> 示例代码详见ros2_base
+<font color="deep pink">示例代码详见ros2_base</font>
 
 ### 话题通信 (Topic)
 话题通信是 ROS2 中最常用的通信方式，采用发布/订阅模式。

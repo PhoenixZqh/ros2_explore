@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.000154] (ros2_base) JobQueued: {'identifier': 'ros2_base', 'dependencies': OrderedDict()}
+[0.000269] (ros2_base) JobStarted: {'identifier': 'ros2_base'}
+[0.003547] (ros2_base) JobProgress: {'identifier': 'ros2_base', 'progress': 'cmake'}
+[0.003752] (ros2_base) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2_explore/src/ros2_base', '-DCMAKE_INSTALL_PREFIX=/home/ros2_explore/install/ros2_base'], 'cwd': '/home/ros2_explore/build/ros2_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('HOSTNAME', 'zqh-OMEN-by-HP-45L-Gaming-Desktop-GT22-0xxx'), ('GIT_ASKPASS', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_explore/build'), ('TERM_PROGRAM_VERSION', '0.45.14'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-ca80f3c7-4c42-4090-a24c-645629d36005.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ros2_explore/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-317c83b7-1ecf-4162-ad57-8aa95b8ca377.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-317c83b7-1ecf-4162-ad57-8aa95b8ca377.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-cfc9ac34e3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-317c83b7-1ecf-4162-ad57-8aa95b8ca377.sock'), ('AMENT_PREFIX_PATH', '/home/ros2_explore/install/ros2_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2_explore/build/ros2_base'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Etc/UTC'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_explore/install/ros2_base:/opt/ros/humble')]), 'shell': False}
+[0.030450] (ros2_base) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.094305] (ros2_base) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099967] (-) TimerEvent: {}
+[0.101411] (ros2_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.147466] (ros2_base) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.151568] (ros2_base) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.151723] (ros2_base) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.151923] (ros2_base) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.153514] (ros2_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.194818] (ros2_base) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.198614] (ros2_base) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.198698] (ros2_base) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.198933] (ros2_base) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.199867] (ros2_base) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200013] (-) TimerEvent: {}
+[0.290746] (ros2_base) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.300125] (-) TimerEvent: {}
+[0.342281] (ros2_base) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.361545] (ros2_base) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.363775] (ros2_base) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.367483] (ros2_base) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.372928] (ros2_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.380361] (ros2_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400167] (ros2_base) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.400252] (-) TimerEvent: {}
+[0.401265] (ros2_base) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.439052] (ros2_base) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.455047] (ros2_base) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.478450] (ros2_base) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.482108] (ros2_base) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.500367] (-) TimerEvent: {}
+[0.516848] (ros2_base) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.517057] (ros2_base) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.561850] (ros2_base) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.562407] (ros2_base) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.590523] (ros2_base) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.600465] (-) TimerEvent: {}
+[0.608875] (ros2_base) StdoutLine: {'line': b'-- Found std_srvs: 4.8.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.613707] (ros2_base) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.700648] (-) TimerEvent: {}
+[0.759585] (ros2_base) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.800836] (-) TimerEvent: {}
+[0.901092] (-) TimerEvent: {}
+[0.974491] (ros2_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.001265] (-) TimerEvent: {}
+[1.046624] (ros2_base) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.057701] (ros2_base) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.058228] (ros2_base) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.070962] (ros2_base) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.071108] (ros2_base) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.071174] (ros2_base) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.071234] (ros2_base) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.085366] (ros2_base) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.101385] (-) TimerEvent: {}
+[1.118868] (ros2_base) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.129599] (ros2_base) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.129955] (ros2_base) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.130033] (ros2_base) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.130187] (ros2_base) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.130473] (ros2_base) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.130707] (ros2_base) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.131240] (ros2_base) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.131313] (ros2_base) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.131570] (ros2_base) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.132716] (ros2_base) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.159993] (ros2_base) StdoutLine: {'line': b'-- Generating done\n'}
+[1.171010] (ros2_base) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2_explore/build/ros2_base\n'}
+[1.177156] (ros2_base) CommandEnded: {'returncode': 0}
+[1.177453] (ros2_base) JobProgress: {'identifier': 'ros2_base', 'progress': 'build'}
+[1.177815] (ros2_base) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2_explore/build/ros2_base', '--', '-j24', '-l24'], 'cwd': '/home/ros2_explore/build/ros2_base', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('HOSTNAME', 'zqh-OMEN-by-HP-45L-Gaming-Desktop-GT22-0xxx'), ('GIT_ASKPASS', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/bin/helpers/browser.sh'), ('HOME', '/root'), ('OLDPWD', '/home/ros2_explore/build'), ('TERM_PROGRAM_VERSION', '0.45.14'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-ca80f3c7-4c42-4090-a24c-645629d36005.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/ros2_explore/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-317c83b7-1ecf-4162-ad57-8aa95b8ca377.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.cursor-server/bin/906121b8c0bdf041c14a15dac228e66ab5505260/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-317c83b7-1ecf-4162-ad57-8aa95b8ca377.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-cfc9ac34e3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-317c83b7-1ecf-4162-ad57-8aa95b8ca377.sock'), ('AMENT_PREFIX_PATH', '/home/ros2_explore/install/ros2_base:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros2_explore/build/ros2_base'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Etc/UTC'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2_explore/install/ros2_base:/opt/ros/humble')]), 'shell': False}
+[1.195584] (ros2_base) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.199662] (ros2_base) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.201449] (-) TimerEvent: {}
+[1.202625] (ros2_base) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_ros2_base\n'}
+[1.301252] (ros2_base) StdoutLine: {'line': b'running egg_info\n'}
+[1.301385] (ros2_base) StdoutLine: {'line': b'creating ros2_base.egg-info\n'}
+[1.301501] (-) TimerEvent: {}
+[1.301657] (ros2_base) StdoutLine: {'line': b'writing ros2_base.egg-info/PKG-INFO\n'}
+[1.301712] (ros2_base) StdoutLine: {'line': b'writing dependency_links to ros2_base.egg-info/dependency_links.txt\n'}
+[1.301741] (ros2_base) StdoutLine: {'line': b'writing top-level names to ros2_base.egg-info/top_level.txt\n'}
+[1.301765] (ros2_base) StdoutLine: {'line': b"writing manifest file 'ros2_base.egg-info/SOURCES.txt'\n"}
+[1.302498] (ros2_base) StdoutLine: {'line': b"reading manifest file 'ros2_base.egg-info/SOURCES.txt'\n"}
+[1.302724] (ros2_base) StdoutLine: {'line': b"writing manifest file 'ros2_base.egg-info/SOURCES.txt'\n"}
+[1.315297] (ros2_base) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_ros2_base_egg\n'}
+[1.396537] (ros2_base) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ros2_base__rosidl_generator_c.dir/rosidl_generator_c/ros2_base/action/detail/count_number__functions.c.o\x1b[0m\n'}
+[1.397740] (ros2_base) StdoutLine: {'line': b'[  6%] Built target ros2_base__cpp\n'}
+[1.401604] (-) TimerEvent: {}
+[1.401723] (ros2_base) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.401786] (ros2_base) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.401854] (ros2_base) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.458158] (ros2_base) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libros2_base__rosidl_generator_c.so\x1b[0m\n'}
+[1.474800] (ros2_base) StdoutLine: {'line': b'[ 16%] Built target ros2_base__rosidl_generator_c\n'}
+[1.479087] (ros2_base) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.479212] (ros2_base) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.479277] (ros2_base) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.501727] (-) TimerEvent: {}
+[1.539088] (ros2_base) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros2_base__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_base/action/count_number__type_support.cpp.o\x1b[0m\n'}
+[1.561165] (ros2_base) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ros2_base__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_base/action/detail/count_number__type_support.cpp.o\x1b[0m\n'}
+[1.585658] (ros2_base) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros2_base__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_base/action/detail/dds_fastrtps/count_number__type_support.cpp.o\x1b[0m\n'}
+[1.601846] (-) TimerEvent: {}
+[1.615522] (ros2_base) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ros2_base__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_base/action/count_number__type_support.cpp.o\x1b[0m\n'}
+[1.636790] (ros2_base) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libros2_base__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.650039] (ros2_base) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/ros2_base__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_base/action/detail/count_number__type_support.c.o\x1b[0m\n'}
+[1.656071] (ros2_base) StdoutLine: {'line': b'[ 37%] Built target ros2_base__rosidl_typesupport_c\n'}
+[1.660732] (ros2_base) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/ros2_base__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_base/action/detail/count_number__type_support_c.cpp.o\x1b[0m\n'}
+[1.671231] (ros2_base) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libros2_base__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.685542] (ros2_base) StdoutLine: {'line': b'[ 41%] Built target ros2_base__rosidl_typesupport_introspection_c\n'}
+[1.701967] (-) TimerEvent: {}
+[1.739512] (ros2_base) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libros2_base__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.758357] (ros2_base) StdoutLine: {'line': b'[ 44%] Built target ros2_base__rosidl_typesupport_cpp\n'}
+[1.767339] (ros2_base) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o\x1b[0m\n'}
+[1.767525] (ros2_base) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/topic_sub.dir/src/topic_sub.cpp.o\x1b[0m\n'}
+[1.767616] (ros2_base) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/topic_pub.dir/src/topic_pub.cpp.o\x1b[0m\n'}
+[1.767681] (ros2_base) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o\x1b[0m\n'}
+[1.767758] (ros2_base) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o\x1b[0m\n'}
+[1.773000] (ros2_base) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o\x1b[0m\n'}
+[1.802076] (-) TimerEvent: {}
+[1.825752] (ros2_base) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libros2_base__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.833760] (ros2_base) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libros2_base__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.837592] (ros2_base) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libros2_base__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.864849] (ros2_base) StdoutLine: {'line': b'[ 65%] Built target ros2_base__rosidl_typesupport_introspection_cpp\n'}
+[1.871593] (ros2_base) StdoutLine: {'line': b'[ 65%] Built target ros2_base__rosidl_typesupport_fastrtps_c\n'}
+[1.890566] (ros2_base) StdoutLine: {'line': b'[ 65%] Built target ros2_base__rosidl_typesupport_fastrtps_cpp\n'}
+[1.899972] (ros2_base) StdoutLine: {'line': b'[ 65%] Built target ros2_base\n'}
+[1.902184] (-) TimerEvent: {}
+[1.908188] (ros2_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_explore/src/ros2_base/src/action_server.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kros2_action_example/action/count_number.hpp: No such file or directory\n'}
+[1.908394] (ros2_base) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K"ros2_action_example/action/count_number.hpp"\x1b[m\x1b[K\n'}
+[1.908473] (ros2_base) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.908538] (ros2_base) StderrLine: {'line': b'compilation terminated.\n'}
+[1.909499] (ros2_base) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/action_server.cpp.o] Error 1\n'}
+[1.909648] (ros2_base) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.909801] (ros2_base) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:711: CMakeFiles/action_server.dir/all] Error 2\n'}
+[1.909893] (ros2_base) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.925500] (ros2_base) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2_explore/src/ros2_base/src/action_client.cpp:3:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kros2_action_example/action/count_number.hpp: No such file or directory\n'}
+[1.925651] (ros2_base) StderrLine: {'line': b'    3 | #include \x1b[01;31m\x1b[K"ros2_action_example/action/count_number.hpp"\x1b[m\x1b[K\n'}
+[1.925712] (ros2_base) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.925768] (ros2_base) StderrLine: {'line': b'compilation terminated.\n'}
+[1.926862] (ros2_base) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/action_client.cpp.o] Error 1\n'}
+[1.926980] (ros2_base) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:738: CMakeFiles/action_client.dir/all] Error 2\n'}
+[2.002307] (-) TimerEvent: {}
+[2.102623] (-) TimerEvent: {}
+[2.202915] (-) TimerEvent: {}
+[2.244014] (ros2_base) StdoutLine: {'line': b'[ 67%] Built target ros2_base__py\n'}
+[2.303017] (-) TimerEvent: {}
+[2.403326] (-) TimerEvent: {}
+[2.503595] (-) TimerEvent: {}
+[2.603877] (-) TimerEvent: {}
+[2.704255] (-) TimerEvent: {}
+[2.804590] (-) TimerEvent: {}
+[2.904909] (-) TimerEvent: {}
+[3.005263] (-) TimerEvent: {}
+[3.105583] (-) TimerEvent: {}
+[3.205923] (-) TimerEvent: {}
+[3.306227] (-) TimerEvent: {}
+[3.406535] (-) TimerEvent: {}
+[3.492580] (ros2_base) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX executable service\x1b[0m\n'}
+[3.506669] (-) TimerEvent: {}
+[3.545027] (ros2_base) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[3.572937] (ros2_base) StdoutLine: {'line': b'[ 72%] Built target service\n'}
+[3.606802] (-) TimerEvent: {}
+[3.621728] (ros2_base) StdoutLine: {'line': b'[ 72%] Built target client\n'}
+[3.706967] (-) TimerEvent: {}
+[3.807246] (-) TimerEvent: {}
+[3.907527] (-) TimerEvent: {}
+[3.916357] (ros2_base) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX executable topic_pub\x1b[0m\n'}
+[4.007641] (-) TimerEvent: {}
+[4.011592] (ros2_base) StdoutLine: {'line': b'[ 74%] Built target topic_pub\n'}
+[4.107735] (-) TimerEvent: {}
+[4.207974] (-) TimerEvent: {}
+[4.308264] (-) TimerEvent: {}
+[4.408544] (-) TimerEvent: {}
+[4.508820] (-) TimerEvent: {}
+[4.609089] (-) TimerEvent: {}
+[4.709309] (-) TimerEvent: {}
+[4.809524] (-) TimerEvent: {}
+[4.909801] (-) TimerEvent: {}
+[5.010075] (-) TimerEvent: {}
+[5.110350] (-) TimerEvent: {}
+[5.210624] (-) TimerEvent: {}
+[5.310830] (-) TimerEvent: {}
+[5.411071] (-) TimerEvent: {}
+[5.511315] (-) TimerEvent: {}
+[5.611542] (-) TimerEvent: {}
+[5.711854] (-) TimerEvent: {}
+[5.718796] (ros2_base) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable topic_sub\x1b[0m\n'}
+[5.811962] (-) TimerEvent: {}
+[5.910368] (ros2_base) StdoutLine: {'line': b'[ 76%] Built target topic_sub\n'}
+[5.910989] (ros2_base) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.912181] (ros2_base) CommandEnded: {'returncode': 2}
+[5.912444] (-) TimerEvent: {}
+[5.916258] (ros2_base) JobEnded: {'identifier': 'ros2_base', 'rc': 2}
+[5.926564] (-) EventReactorShutdown: {}

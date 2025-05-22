@@ -1,0 +1,6 @@
+{
+  "package_name": "ros2_base",
+  "non_idl_tuples": [
+    "/home/ros2_explore/src/ros2_base:action/CountNumber.action"
+  ]
+}

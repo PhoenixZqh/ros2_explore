@@ -1,0 +1,52 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_base__rosidl_generator_c[0m
+[  2%] Built target ros2_base__cpp
+[  9%] Built target ros2_base__rosidl_generator_c
+[  9%] Built target ament_cmake_python_copy_ros2_base
+[35m[1mConsolidate compiler generated dependencies of target ros2_base__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_base__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_base__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_base__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_base__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target ros2_base__rosidl_typesupport_c[0m
+[ 16%] Built target ros2_base__rosidl_typesupport_cpp
+[ 25%] Built target ros2_base__rosidl_typesupport_introspection_c
+[ 30%] Built target ros2_base__rosidl_typesupport_c
+[ 37%] Built target ros2_base__rosidl_typesupport_fastrtps_cpp
+[ 44%] Built target ros2_base__rosidl_typesupport_fastrtps_c
+[ 51%] Built target ros2_base__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target topic_pub[0m
+[35m[1mConsolidate compiler generated dependencies of target service[0m
+[35m[1mConsolidate compiler generated dependencies of target topic_sub[0m
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[ 58%] Built target topic_pub
+[ 58%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[ 65%] Built target service
+[ 69%] Built target topic_sub
+[ 69%] Built target ros2_base
+[ 74%] Built target client
+[ 76%] Built target ros2_base__py
+[ 79%] [32mBuilding C object CMakeFiles/ros2_base__rosidl_generator_py.dir/rosidl_generator_py/ros2_base/action/_count_number_s.c.o[0m
+running egg_info
+writing ros2_base.egg-info/PKG-INFO
+writing dependency_links to ros2_base.egg-info/dependency_links.txt
+writing top-level names to ros2_base.egg-info/top_level.txt
+reading manifest file 'ros2_base.egg-info/SOURCES.txt'
+writing manifest file 'ros2_base.egg-info/SOURCES.txt'
+[ 81%] [32m[1mLinking C shared library rosidl_generator_py/ros2_base/libros2_base__rosidl_generator_py.so[0m
+[ 81%] Built target ament_cmake_python_build_ros2_base_egg
+[01m[K/home/ros2_explore/src/ros2_base/src/action_server.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kros2_action_example/action/count_number.hpp: No such file or directory
+    3 | #include [01;31m[K"ros2_action_example/action/count_number.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/action_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:711: CMakeFiles/action_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 81%] Built target ros2_base__rosidl_generator_py
+[01m[K/home/ros2_explore/src/ros2_base/src/action_client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kros2_action_example/action/count_number.hpp: No such file or directory
+    3 | #include [01;31m[K"ros2_action_example/action/count_number.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/action_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:738: CMakeFiles/action_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
